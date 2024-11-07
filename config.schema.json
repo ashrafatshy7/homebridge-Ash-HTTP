@@ -1,0 +1,52 @@
+{
+    "pluginAlias": "HttpSensorsAndSwitches",
+    "pluginType": "platform",
+    "singular": true,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "title": "Platform Name",
+          "type": "string",
+          "required": true,
+          "default": "HttpSensorsAndSwitches"
+        },
+        "devices": {
+          "title": "Devices",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "deviceType": {
+                "title": "Device Type",
+                "type": "string",
+                "required": true,
+                "default": "Switch"
+              },
+              "deviceID": {
+                "title": "Device ID",
+                "type": "string",
+                "required": true
+              },
+              "deviceName": {
+                "title": "Device Name",
+                "type": "string",
+                "required": true
+              },
+              "urlON": {
+                "title": "URL to Turn On",
+                "type": "string",
+                "required": true
+              },
+              "urlOFF": {
+                "title": "URL to Turn Off",
+                "type": "string",
+                "required": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
