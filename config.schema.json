@@ -2,6 +2,7 @@
     "pluginAlias": "HttpSensorsAndSwitches",
     "pluginType": "platform",
     "singular": true,
+    "footerDisplay": "Created by @Ashraf",
     "schema": {
       "type": "object",
       "properties": {
