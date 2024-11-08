@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "HttpSensorsAndSwitches",
+    "pluginAlias": "http-ashraf",
     "pluginType": "platform",
     "singular": true,
     "footerDisplay": "Created by @Ashraf",
@@ -10,7 +10,7 @@
           "title": "Platform Name",
           "type": "string",
           "required": true,
-          "default": "HttpSensorsAndSwitches"
+          "default": "http-ashraf"
         },
         "devices": {
           "title": "Devices",
