@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-Ashraf-HTTP",
+  "name": "hb-ahttp",
   "version": "1.0.0",
   "description": "Homebridge plugin to control ESP32 LEDs via HTTP.",
   "main": "dist/index.js",
