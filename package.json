@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Homebridge plugin to control ESP32 LEDs via HTTP.",
   "main": "dist/index.js",
+  "author": "Ashraf",
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
